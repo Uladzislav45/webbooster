@@ -42,14 +42,3 @@ function clearInputs() {
         inputs[i].value = '';
     };
 };
-
-function checkInputs() {
-    let inputs = document.querySelectorAll('input')
-    for (i = 0; i < inputs.length; i++) {
-        if (!inputs[i].value) {
-            inputs[i].classList.add('empty');
-        } else {
-            continue;
-        }
-    };
-};
